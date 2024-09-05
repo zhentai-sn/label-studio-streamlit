@@ -7,6 +7,7 @@ LastEditTime: 2024-09-04 10:35:16
 import base64
 
 import streamlit as st
+import cv2
 from PIL import Image
 import json
 import io

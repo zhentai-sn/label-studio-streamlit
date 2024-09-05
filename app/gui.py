@@ -11,7 +11,6 @@ from PIL import Image
 import json
 import io
 import xml.etree.ElementTree as ET
-import cv2
 import numpy as np
 import glob
 import os

@@ -1,0 +1,27 @@
+<View>
+  <Image name="image" value="$image" />
+
+  <Rectangle name="rect" toName="image" />
+  <Polygon name="polygon" toName="image" />
+  <Brush name="brush" toName="image" />
+
+  <!-- <Ellipse name="ellipse" toName="image" /> -->
+  <!-- <KeyPoint name="kp" toName="image" /> -->
+
+  <Labels name="labels" toName="image" fillOpacity="0.3" strokeWidth="2">
+    <Label value="car" background="red"></Label>
+  </Labels>
+
+  <RectangleLabels name="tag" toName="image" fillOpacity="0.3" strokeWidth="2">
+    <Label value="car" background="red"></Label>
+  </RectangleLabels>
+  
+
+
+
+  <!-- <Relations>
+    <Relation value="similar" />
+    <Relation value="dissimilar" />
+  </Relations> -->
+
+</View>

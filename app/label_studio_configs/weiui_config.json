@@ -1,0 +1,71 @@
+{   
+    "description" :  "image annotation tool",
+
+    "user" : {
+        "id": 1,
+        "firstName": "",
+        "lastName": "",
+        "username": "",
+        "email": "",
+        "avatar": null,
+        "initials": "AS"
+    },
+  
+    "interfaces": [
+        "panel",
+        "update",
+        "submit",
+        "skip",
+        "auto-annotation",
+        "side-column",
+        "controls",
+        "infobar",
+        "topbar",
+        "instruction",
+        "ground-truth",
+        "annotations:history",
+        "annotations:tabs",
+        "annotations:menu",
+        "annotations:current",
+        "annotations:add-new",
+        "annotations:delete",
+        "annotations:view-all",
+        "predictions:tabs",
+        "predictions:menu",
+        "edit-history",
+        "topbar:prevnext"
+    ],
+
+
+    "config":"app/label_studio_configs/xml/img_tools.xml",
+
+
+    "task": {   
+                "id": 1,
+
+                "annotations": [
+                    {
+                        
+                        "lead_time": 15.053,
+                        "result":[
+                            
+                            ]
+
+                    }
+                ],
+
+                "predictions": [
+                    {
+                        
+                        "lead_time": 15.053,
+                        "result":[
+                            
+                            ]
+                    }
+                ],
+
+                "data": {
+                    "image": []
+                }
+            }
+}
